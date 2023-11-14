@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 import infoRoutes from './routes/index';
 
 const app: express.Application = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 app.use(infoRoutes);
 app.use('/', (req: Request, res: Response)=> {
