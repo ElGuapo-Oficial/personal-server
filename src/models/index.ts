@@ -1,5 +1,5 @@
 const getInfoData = (): string => {
-    return "Najash1=2";
+    return "Najash3";
 };
   
 export default getInfoData;
